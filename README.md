@@ -36,7 +36,7 @@ Welcome to my GitHub Portfolio! This repository showcases my personal projects, 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/masaudahmod/simple-portfolio-002.git
    ```
 
 2. Navigate to the project directory:
@@ -93,9 +93,9 @@ Contributions are welcome! If you'd like to enhance this portfolio, please:
 
 If you have any questions or feedback, feel free to reach out:
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile/)
-- **Portfolio**: [Your Live Portfolio](https://your-portfolio-link.com)
+- **Email**: [your-email@example.com](mailto:masaudahmod@gmail.com)
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/masaudahmod/)
+- **Portfolio**: [Your Live Portfolio](https://masaudahmod.com)
 
 ---
 
