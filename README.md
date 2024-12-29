@@ -66,26 +66,6 @@ Welcome to my GitHub Portfolio! This repository showcases my personal projects, 
 ![Dark Mode Toggle](./public/images/portfolio-dark-mode.png)
 *Dark mode for a modern, sleek look.*
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to enhance this portfolio, please:
-
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m 'Add a new feature'
-   ```
-4. Push the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
 
 ---
 
@@ -100,4 +80,3 @@ If you have any questions or feedback, feel free to reach out:
 ---
 
 Thank you for visiting my portfolio repository! 🌟
-
