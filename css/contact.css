@@ -130,11 +130,10 @@ li a:hover {
 .contact-info {
   background-color: var(--bg-card);
   border-radius: 10px;
-  padding: 30px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  overflow: hidden;
 }
 
 .info-item {
@@ -194,6 +193,26 @@ li a:hover {
   transform: translateY(-3px);
 }
 
+.contact-information {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 30px;
+}
+
+.coontact-img-div {
+  /* border-radius: 10px; */
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.coontact-img-div img {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(70%);
+}
+
 /* Contact Form Styles */
 .contact-form-container {
   background-color: var(--bg-card);
@@ -212,6 +231,7 @@ li a:hover {
 .form-group {
   margin-bottom: 20px;
   position: relative;
+  padding: 0 30px 0 0;
 }
 
 .form-group label {
@@ -246,7 +266,7 @@ li a:hover {
 }
 
 .error-message {
-  color: var(--error-color);
+  color: red;
   font-size: 14px;
   margin-top: 5px;
   display: block;
