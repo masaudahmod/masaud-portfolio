@@ -107,24 +107,35 @@ li a:hover {
     row-gap: 2rem;
     align-items: center;
 }
-.main h3 {
+.main .hero-h3 {
     font-size: 1.5rem;
     opacity: 0;
     animation: topSideAni 1s ease forwards;
 }
-.main h1 {
+.main .hero-h1 {
     font-size: 4rem;
     font-weight: 600;
     opacity: 0;
-    animation: leftSideAni 1s ease forwards;
-    animation-delay: 1s;
+    animation: leftSideAni .5s ease forwards;
+    animation-delay: .5s;
 }
 
-.main p {
+.main .hero-p {
     line-height: 1.7;
     font-size: 1.15rem;
     opacity: 0;
     animation: topSideAni 1.5s ease forwards;
+}
+.main .hero-typed{
+    font-size: 1.5rem;
+    font-weight: 600;
+    opacity: 0;
+    animation: topSideAni 1s ease forwards;
+    animation-delay: .4s;
+    margin-bottom: 5px;
+}
+.main .hero-typed span{
+	color: orange;
 }
 
 .social {
@@ -183,7 +194,7 @@ li a:hover {
 }
 .images {
     opacity: 0;
-    animation: imageAni 1s ease forwards;
+    animation: imageAni .4s ease forwards;
     animation-delay: 1.5s;
 }
 
