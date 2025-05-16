@@ -56,3 +56,77 @@ window.addEventListener("DOMContentLoaded", () => {
     card.style.opacity = "0";
   });
 });
+
+
+// about js
+
+// Initialize the progress bars
+document.addEventListener("DOMContentLoaded", function () {
+  // Animate progress bars
+  const progressBars = document.querySelectorAll(".progress-fill");
+  progressBars.forEach((bar) => {
+    setTimeout(() => {
+      const width = bar.getAttribute("data-width") + "%";
+      bar.style.width = width;
+    }, 500);
+  });
+
+  // Tab navigation functionality
+  const tabButtons = document.querySelectorAll(".tab-btn");
+  const tabContents = document.querySelectorAll(".tab-content");
+
+  tabButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      // Remove active class from all buttons and contents
+      tabButtons.forEach((btn) => btn.classList.remove("active"));
+      tabContents.forEach((content) => content.classList.remove("active"));
+
+      // Add active class to clicked button and corresponding content
+      button.classList.add("active");
+      const tabId = button.getAttribute("data-tab");
+      document.getElementById(tabId).classList.add("active");
+
+      // Apply entrance animation for items inside the tab
+      animateTabContent(tabId);
+    });
+  });
+
+  // Function to animate content inside tabs
+  function animateTabContent(tabId) {
+    const tab = document.getElementById(tabId);
+
+    // Different animation for each tab type
+    if (tabId === "languages") {
+      const items = tab.querySelectorAll(".language-item");
+      animateItems(items);
+    } else if (tabId === "technologies") {
+      const items = tab.querySelectorAll(".tech-item");
+      animateItems(items);
+    } else if (tabId === "experience") {
+      const items = tab.querySelectorAll(".timeline-item");
+      animateItems(items);
+    } else if (tabId === "education") {
+      const items = tab.querySelectorAll(".education-item");
+      animateItems(items);
+    }
+  }
+
+  // Generic function to animate items with delay
+  function animateItems(items) {
+    items.forEach((item, index) => {
+      item.style.opacity = "0";
+      item.style.transform = "translateY(20px)";
+
+      setTimeout(() => {
+        item.style.transition = "all 0.5s ease";
+        item.style.opacity = "1";
+        item.style.transform = "translateY(0)";
+      }, 100 * index);
+    });
+  }
+
+  // Initial animation for the first tab
+  animateTabContent("languages");
+});
+
+// about js
