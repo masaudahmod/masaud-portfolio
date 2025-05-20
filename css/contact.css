@@ -164,6 +164,12 @@ li a:hover {
   color: rgba(245, 245, 245, 0.8);
   font-size: 16px;
 }
+.contacts{
+  color: rgba(245, 245, 245, 0.8);
+  /* color: var(--primary-color); */
+  text-decoration: none;
+  font-weight: 500;
+}
 
 .social-links {
   margin-top: 10px;

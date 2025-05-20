@@ -17,7 +17,7 @@ darkModeToggle.addEventListener("change", () => {
 });
 // typedJs
 new Typed("#typed", {
-  strings: ["Dedicated Programmer ", "MERN Stack Web Developer."],
+  strings: ["Dedicated Programmer.", "MERN Stack Web Developer."],
   typeSpeed: 50,
   delaySpeed: 100,
   loop: true,
